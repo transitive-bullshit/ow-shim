@@ -1,0 +1,24 @@
+{
+  "name": "ow-shim",
+  "version": "0.0.1",
+  "description": "Shim to make ow validation library a noop in production",
+  "main": "index.js",
+  "repository": "transitive-bullshit/ow-shim",
+  "author": "Travis Fischer <travis@automagical.ai>",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava -v && standard"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "keywords": [
+    "ow",
+    "browser",
+    "shim"
+  ],
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "standard": "^11.0.0"
+  }
+}
