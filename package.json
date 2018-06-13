@@ -19,6 +19,12 @@
   ],
   "devDependencies": {
     "ava": "^0.25.0",
+    "esm": "^3.0.49",
     "standard": "^11.0.0"
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ]
   }
 }
