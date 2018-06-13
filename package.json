@@ -1,6 +1,6 @@
 {
   "name": "ow-shim",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Drop-in replacement shim to make ow validation library a noop in production.",
   "main": "index.js",
   "repository": "transitive-bullshit/ow-shim",
